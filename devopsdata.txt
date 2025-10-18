@@ -38,7 +38,10 @@ $ git status
 fatal: not a git repository (or any of the parent directories): .git
 
 ----based on above error it means it is a local desktop location so if you want connect to git you can use this command---git init()--it git initiallization
+--touch soap--it means we create the file using gitbash command promopt.if you want crete multiple files touch s1,s2,s3---created 3 files
 
+
+--how to send multiple files at a time use this commands--git add .,git add *,git add -A
 
 
 								
