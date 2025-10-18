@@ -1,0 +1,44 @@
+Devops means Development + operations. It is not a single tool or it is not a software it is a methodology[combination of tools] to fast the process of Data[releases] in a shorter time to get better quality .
+
+I have code so i need to store the code for this reason i am using Git and GitHub.
+
+how many 3 enivornments--test environment,pre-prod environment,prod environment
+
+what is SCM Tool--source code management tool--It is code management tool.SCM Tool--GitHub.
+
+GitHub is Distrubuted Version control tool and create a new repository is nothing but folder in github.
+
+
+Before github SVN[Version control tool--In this code is not distrubuted] Tool is there.
+
+Git is a tool/software that runs locally on your computer..Github is a website/service that works online.
+Git is helps you manage your code history,create branches and mergge branches
+Github is helps you store,share and collaborate on Git Repositories.
+
+
+What are the steps you nedd to push code from local to github reposiory?
+ 1.working area 2.staging area 3.local repository
+ 
+my changes are saved in working area in locally so i need to move the changes into staging area then we will use the command is git add filename.
+
+how to add file in staging ares?--git add filename.
+using this command git add filename we can add the filename.
+if we use onemore command git status.
+git status is red --it is working area.
+git status is green --it is staging area.
+
+staging area to local repository---git commit -m[message] "i am developing code for cart"
+								---git commit -m[message] "resolving bugs for cart "
+								--so check wheather the file is in localreposiotory or not for this use command is git log
+								
+ls --list the files
+
+Error:
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+----based on above error it means it is a local desktop location so if you want connect to git you can use this command---git init()--it git initiallization
+
+
+
+								
